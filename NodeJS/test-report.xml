@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite id="0" name="D:\ReactProjects\ReactMatchSchedule\NodeJS\test\index.test.js" errors="0" package="D:\ReactProjects\ReactMatchSchedule\NodeJS\test\index.test.js" hostname="localhost" tests="7" failures="7" time="43.037" timestamp="2022-06-20T09:46:12">
+    <properties>
+    </properties>
+    <testcase classname="View all the fixtures" name="View all the fixtures" time="0">
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\test\index.test.js:17:6)
+    at Object.asyncJestTest (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+----
+    at Test._assertStatus (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:306:17
+    at Test._assertFunction (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="View all the fixtures from a venue" name="View all the fixtures from a venue" time="0">
+      <failure message="MongooseError: Operation `fixtures.deleteMany()` buffering timed out after 10000ms
+    at Timeout.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)" type="AssertionError">
+      </failure>
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\test\index.test.js:37:6)
+    at Object.asyncJestTest (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+----
+    at Test._assertStatus (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:306:17
+    at Test._assertFunction (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="View all the fixtures from a start date" name="View all the fixtures from a start date" time="0">
+      <failure message="MongooseError: Operation `fixtures.deleteMany()` buffering timed out after 10000ms
+    at Timeout.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)" type="AssertionError">
+      </failure>
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\test\index.test.js:53:6)
+    at Object.asyncJestTest (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+----
+    at Test._assertStatus (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:306:17
+    at Test._assertFunction (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="View all the fixtures till the end date" name="View all the fixtures till the end date" time="0">
+      <failure message="MongooseError: Operation `fixtures.deleteMany()` buffering timed out after 10000ms
+    at Timeout.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)" type="AssertionError">
+      </failure>
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\test\index.test.js:71:6)
+    at Object.asyncJestTest (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+----
+    at Test._assertStatus (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:306:17
+    at Test._assertFunction (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="View all the fixtures till the end date" name="View all the fixtures till the end date" time="0">
+      <failure message="MongooseError: Operation `fixtures.deleteMany()` buffering timed out after 10000ms
+    at Timeout.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)" type="AssertionError">
+      </failure>
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\test\index.test.js:89:6)
+    at Object.asyncJestTest (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+----
+    at Test._assertStatus (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:306:17
+    at Test._assertFunction (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Insert a fixture" name="Insert a fixture" time="0">
+      <failure message="MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+    at NativeConnection.Object.&lt;anonymous&gt;.Connection.openUri (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\mongoose\lib\connection.js:847:32)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\mongoose\lib\index.js:351:10
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (&lt;anonymous&gt;)
+    at promiseOrCallback (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose.Object.&lt;anonymous&gt;.Mongoose._promiseOrCallback (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\mongoose\lib\index.js:1149:10)
+    at Mongoose.connect (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\mongoose\lib\index.js:350:20)
+    at Object.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\src\db\index.js:4:10)
+    at Runtime._execModule (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-runtime\build\index.js:1299:24)
+    at Runtime._loadModule (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-runtime\build\index.js:898:12)
+    at Runtime.requireModule (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-runtime\build\index.js:746:10)
+    at Runtime.require [as requireModuleOrMock] (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-runtime\build\index.js:919:21)
+    at Object.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\src\app.js:3:1)
+    at Runtime._execModule (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-runtime\build\index.js:1299:24)
+    at Runtime._loadModule (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-runtime\build\index.js:898:12)
+    at Runtime.requireModule (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-runtime\build\index.js:746:10)" type="AssertionError">
+      </failure>
+    </testcase>
+    <testcase classname="Insert a fixture" name="Insert a fixture" time="0">
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\test\index.test.js:110:6)
+    at Object.asyncJestTest (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+----
+    at Test._assertStatus (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:306:17
+    at Test._assertFunction (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)" type="AssertionError">
+      </failure>
+      <failure message="MongooseError: Operation `fixtures.deleteMany()` buffering timed out after 10000ms
+    at Timeout.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:198:23)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)" type="AssertionError">
+      </failure>
+      <failure message="Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.Error: Timeout - Async callback was not invoked within the 5000 ms timeout specified by jest.setTimeout.
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:27:45)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)" type="AssertionError">
+      </failure>
+      <failure message="Error: expected 200 &quot;OK&quot;, got 404 &quot;Not Found&quot;
+    at Object.&lt;anonymous&gt; (D:\ReactProjects\ReactMatchSchedule\NodeJS\test\index.test.js:127:6)
+    at Object.asyncJestTest (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:106:37)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:45:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:28:19)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\jest-jasmine2\build\queueRunner.js:75:41
+----
+    at Test._assertStatus (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:252:14)
+    at D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:306:17
+    at Test._assertFunction (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:285:13)
+    at Test.assert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:164:23)
+    at Server.localAssert (D:\ReactProjects\ReactMatchSchedule\NodeJS\node_modules\supertest\lib\test.js:120:14)
+    at Object.onceWrapper (events.js:421:28)
+    at Server.emit (events.js:315:20)
+    at emitCloseNT (net.js:1659:8)
+    at processTicksAndRejections (internal/process/task_queues.js:79:21)" type="AssertionError">
+      </failure>
+    </testcase>
+    <system-out/>
+    <system-err/>
+  </testsuite>
+</testsuites>
