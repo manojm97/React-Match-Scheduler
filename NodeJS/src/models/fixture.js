@@ -14,6 +14,10 @@ const fixture_schema = new mongoose.Schema({
   venue: {
     type: String,
     required: true,
+    // validate:{
+    //   validator:function(val){
+    //   }
+    // }
   },
   date: {
     type: Date,

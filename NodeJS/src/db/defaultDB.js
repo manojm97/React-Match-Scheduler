@@ -54,4 +54,10 @@ const setUpDataBase = async () => {
 
 setUpDataBase();
 
-module.exports.fixtureOne = fixtureOne;
+module.exports.fixtureOne = fixtureFive;
+new Fixture({
+  _id: new mongoose.Types.ObjectId(),
+  team1: "RCB",
+  team2: "LSG",
+  date: "2022-05-29"
+}).save()

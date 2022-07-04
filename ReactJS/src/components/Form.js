@@ -11,7 +11,7 @@ import Error from "./Error";
 //   inputOnChangeHandler: helps to capture the entered data to store it in state
 //   error: renders the error from backend
 const Form = ({ title, inputOnChangeHandler, onSaveHandler, error }) => (
-  <form>
+  <form method="POST">
     <h3>{title}</h3>
     <Error message={error} />
     {model.filter(i => i.input_type)
@@ -21,6 +21,7 @@ const Form = ({ title, inputOnChangeHandler, onSaveHandler, error }) => (
           <input
             type={i.input_type}
             name={i.column_name}
+            onChange={inputOnChangeHandler}
           />
         </div>
       )}
